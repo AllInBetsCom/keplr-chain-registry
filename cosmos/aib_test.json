@@ -1,0 +1,52 @@
+{
+    "rpc": "https://aib-testnet.public.blastapi.io",
+    "rest": "https://aib-testnet-rest.public.blastapi.io/",
+    "chainId": "aib_777777-1",
+    "chainName": "AIB Testnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aib-test/chain.png",
+    "nodeProvider": {
+      "name": "AIB Testnet Node",
+      "email": "Games@allinbets.com",
+      "website":"https://allinbets.com"
+    },
+    "stakeCurrency": {
+      "coinDenom": "AIB",
+      "coinMinimalDenom": "aaib",
+      "coinDecimals": 18
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "aib",
+      "bech32PrefixAccPub": "aibpub",
+      "bech32PrefixValAddr": "aibvaloper",
+      "bech32PrefixValPub": "aibvaloperpub",
+      "bech32PrefixConsAddr": "aibvalcons",
+      "bech32PrefixConsPub": "aibvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "AIB",
+        "coinMinimalDenom": "aaib",
+        "coinDecimals": 18,
+        "coinImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/aib-test/chain.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "AIB",
+        "coinMinimalDenom": "aaib",
+        "coinDecimals": 18,
+        "gasPriceStep": {
+          "low": 1000000000,
+          "average": 2000000000,
+          "high": 3000000000
+        }
+      }
+    ],
+    "features": [
+      "cosmwasm"
+    ]
+  }
+  
